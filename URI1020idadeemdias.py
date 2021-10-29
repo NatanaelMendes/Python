@@ -1,0 +1,7 @@
+entrada = int(input())
+ano = str(entrada//365)
+mes = str((entrada % 365)//30)
+dias = str((entrada % 365) % 30)
+print(ano + ' ano(s)')
+print(mes + ' mes(es)')
+print(dias + ' dia(s)')

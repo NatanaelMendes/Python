@@ -1,0 +1,5 @@
+n = int(input())
+entrada = list(map(int, input().split()))
+menor = min(entrada)
+escolha = entrada.index(menor)
+print(escolha + 1)
